@@ -41,7 +41,7 @@ class App extends Component {
       console.log(this.state.score);
       return (
         <Wrapper>
-          <Title>It's a Clicky Game</Title>
+          <Title>Downton Abbey Clicky Game</Title>
           <h1>Score: {this.state.score}</h1>
           {this.state.friends.map(friend => (
             <FriendCard
